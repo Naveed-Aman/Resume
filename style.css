@@ -1,0 +1,145 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Poppins"sans-serif;
+}
+body{
+    
+    background-color: rgb(222, 236, 253);
+    justify-content: center;
+text-align: center;
+    align-items:center;
+    min-height: 100vh;
+
+} 
+.container{
+    width: 100%;
+    position: relative; 
+    min-width: 00px;
+    min-height: 00px;
+     margin:50px; 
+    /* background-color: rgb(115, 148, 248); */
+     display: grid; 
+     grid-template-columns: 0.7fr 2fr; 
+    /* box-shadow: 0 35px 55px rgb(246, 212, 149); */
+}
+.container .left_side{
+    position: relative;
+    background-color: rgb(29, 101, 146);
+    padding: 20px;
+}
+.container .right_side{
+    
+    position: relative;
+    background-color: rgb(253, 239, 251);
+    padding: 40px;
+}
+.img img{
+    width: 200px;
+    height: 200px;
+    border-radius: 120px 120px 120px 120px;
+    padding: 10px;
+    
+
+} 
+.profileText h1{
+    color: rgb(236, 226, 226);
+    font-weight: 400;
+
+}
+.profileText h3{
+    font-weight: 300;
+    font-size:medium;
+    text-transform: uppercase;
+    margin-top: 10px;
+    color: rgb(247, 241, 241);
+    padding-bottom: 0px;
+}
+.profileText{
+
+    position: relative;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+.icon{
+    
+    color: rgb(249, 233, 233);
+}
+/* .text{
+    
+color: rgb(192, 255, 255);
+padding: 20px;
+margin: 20px;
+    align-items: center;
+    text-align: justify;
+} */
+.contactInfo{
+    padding-top: 20px;
+    color: rgb(60, 22, 96);
+}
+/* .nav {
+    border: none;
+    margin-top: 20px ;
+
+} */
+.edu{
+
+    text-align: start;
+
+}
+.edu h3{
+
+    margin-right: 100px;
+    color: aliceblue;
+}
+.edu  li h6{
+    
+    color: rgba(244, 219, 33, 0.959);
+}
+.edu ul li{
+padding-right: 20px;
+}
+.edu li p{
+    font-weight: 500;
+    text-align: start;
+    font-size: smaller;
+    color: rgb(68, 255, 236);
+} .navi li{
+    color: white;
+    font-weight: 300;
+} 
+.percnt{
+    position: relative;
+    background-color: rgb(34, 25, 25);
+    height: 6px;
+    display: block;
+    margin-top: 10px;
+    width: 100%;
+    
+}
+.percnt div{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    background-color: rgb(187, 187, 243);
+}
+.about{
+    margin-top: 80px;
+}
+.about:last-child{margin-bottom: 0%;}
+.title{
+    font-weight: 400;
+text-align: left;
+color: rgb(93, 93, 192);
+text-transform: uppercase;
+
+}
+.yearCompany{
+    color: rgb(159, 124, 26);
+    margin: 30px;
+text-align: start;
+}.yearCompany h4{
+font-weight: 500;
+font-size: medium;
+}
